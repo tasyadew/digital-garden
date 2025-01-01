@@ -3,3 +3,5 @@
 ---
 
 Hello this is my first entry.
+
+[[Welcome\|Welcome]]
