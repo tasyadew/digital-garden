@@ -1,9 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":"1","created":"2025-01-01T23:45:07.235+08:00","updated":"2025-01-17T01:14:50.292+08:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":"1","created":"2025-01-01T23:45:07.235+08:00","updated":"2025-01-21T00:16:43.376+08:00"}
 ---
 
-![cloud.jpg](/img/user/assets/cloud.jpg)
-
+![banner.png](/img/user/assets/banner.png)
 Hello.
 
 There's not much here (yet), but I mainly take notes about #tech, #math, #finance and #tutorial. Hopefully I will continuously grow this garden. That's one of my 2025 goal.
