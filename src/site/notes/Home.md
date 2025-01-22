@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":"1","created":"2025-01-01T23:45:07.235+08:00","updated":"2025-01-22T23:32:29.646+08:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":"1","created":"2025-01-01T23:45:07.235+08:00","updated":"2025-01-23T01:23:27.249+08:00"}
 ---
 
 ![cloud.jpg](/img/user/assets/cloud.jpg)
@@ -8,7 +8,7 @@
 >"The more you learn, the more you realize how much you don’t know."
 – _Albert Einstein_
 
-Hello.
+Hello ☁️
 
 There's not much here (yet), but I mainly take notes about #tech, #math, #finance and #tutorial. Hopefully I will continuously grow this garden.
 
