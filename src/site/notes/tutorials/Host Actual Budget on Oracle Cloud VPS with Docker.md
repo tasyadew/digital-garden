@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/tutorials/host-actual-budget-on-oracle-cloud-vps-with-docker/","tags":["devops","finance","tech/app","tutorial"],"noteIcon":"1","created":"2025-02-07T17:22:42.505+08:00","updated":"2025-02-16T01:25:54.949+08:00"}
+{"dg-publish":true,"permalink":"/tutorials/host-actual-budget-on-oracle-cloud-vps-with-docker/","tags":["devops","finance","tech/app","tutorial"],"noteIcon":"1","created":"2025-02-07T17:22:42.505+08:00","updated":"2025-02-16T01:28:24.673+08:00"}
 ---
 
-
+![Pasted image 20250216012822.png](/img/user/assets/Pasted%20image%2020250216012822.png)
 [[tech/Actual Budget\|Actual Budget]] is a local-first personal finance app. It is open-source and can be self-host the Actual Server on your own PC or on the cloud. My approach is to host on my [[tech/Oracle Cloud\|Oracle Cloud]] (the PAYG, but it is within the free tier usage). For HTTPS, I will use [[tech/Tailscale\|Tailscale]] to privately connect between my devices within the Tailnet network. This allows me to view my finance app from my phone and use the Actual API integration. 
 
 
