@@ -1,12 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/tutorials/publish-obsidian-vault-using-digital-garden-plugin/","tags":["tutorial"],"noteIcon":"1","created":"2025-01-03T19:50:02.722+08:00","updated":"2025-02-09T20:38:35.039+08:00"}
+{"dg-publish":true,"permalink":"/tutorials/publish-obsidian-vault-using-digital-garden-plugin/","tags":["tutorial"],"noteIcon":"1","created":"2025-01-03T19:50:02.722+08:00","updated":"2025-08-06T20:34:53.084+08:00"}
 ---
 
 Follow this tutorial if you want to publish your obsidian vault just like mine. This method is highly customizable. It supports other Obsidian plugins such as Excalidraw and Dataview.
-
-> [!info]- Alternative publishing: Quartz
-> I used to publish my Obsidian Vault using Quartz. However, it does not support Dataview plugin and the site can easily break if you did a lot of customization. Quartz is more of a framework. If you prefer simple setup with a clean layout, you can refer to this [[tutorials/Publish Obsidian Vault Using Quartz\|tutorial]].
-
 
 # Tools
 1)  [Obsidian](https://obsidian.md/) - Of course, for note-taking.

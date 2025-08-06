@@ -1,16 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/tutorials/host-actual-budget-on-oracle-cloud-vps-with-docker/","tags":["devops","finance","tech/app","tutorial"],"noteIcon":"1","created":"2025-02-07T17:22:42.505+08:00","updated":"2025-02-16T01:28:24.673+08:00"}
+{"dg-publish":true,"permalink":"/tutorials/host-actual-budget-on-oracle-cloud-vps-with-docker/","tags":["devops","finance","tech/app","tutorial"],"noteIcon":"1","created":"2025-02-07T17:22:42.505+08:00","updated":"2025-07-12T15:37:12.373+08:00"}
 ---
 
 ![Pasted image 20250216012822.png](/img/user/assets/Pasted%20image%2020250216012822.png)
 [[tech/Actual Budget\|Actual Budget]] is a local-first personal finance app. It is open-source and can be self-host the Actual Server on your own PC or on the cloud. My approach is to host on my [[tech/Oracle Cloud\|Oracle Cloud]] (the PAYG, but it is within the free tier usage). For HTTPS, I will use [[tech/Tailscale\|Tailscale]] to privately connect between my devices within the Tailnet network. This allows me to view my finance app from my phone and use the Actual API integration. 
 
-
 # Pre-requisite
+- Oracle Cloud VPS, or any server that you use.
 - [[tech/Docker\|Docker]] installed in the VPS - [refer here](https://docs.docker.com/engine/install/ubuntu/)
 - [[tech/Tailscale\|Tailscale]] installed in the VPS - [refer here](https://tailscale.com/kb/1031/install-linux)
 
-> [!note]
+> [!tips]-
 > It is easier to remote SSH the VPS using VS Code. (Unless you prefer using vim or nano) 
 
 # Getting Started
@@ -131,6 +131,18 @@ Finally, your file hierarchy should look something like this:
 
 Hopefully now you can host your own Actual Budget. Happy budgeting!!
 
+# Update Actual Budget
+
+1) Locate to your Actual Budget Repo on your VPS.
+
+2) Use this command to update your Actual Budget:
+```bash
+docker compose pull && docker compose up -d
+```
+
+**Note:** If your client version and server version not match, Press CTRL + F5 to clear browser cache. You should be able to see the latest client version!
+![Pasted image 20250712153043.png](/img/user/assets/Pasted%20image%2020250712153043.png)
+![Pasted image 20250712153123.png](/img/user/assets/Pasted%20image%2020250712153123.png)
 ---
 **References**
 Actual Budget Documentation: https://actualbudget.org/docs/
